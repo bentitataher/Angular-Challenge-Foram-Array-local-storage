@@ -24,6 +24,7 @@ export class AppComponent {
       pays: new FormControl(''),
       codePostal: new FormControl(''),
     }),
+  
     
     email: new FormControl('',[Validators.required, Validators.email]),
     password: new FormControl('',[Validators.required, Validators.pattern("^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$")]),
